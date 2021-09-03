@@ -1,0 +1,24 @@
+Pseudocode
+
+Luas_Keliling_Lingkaran
+
+STORE "phi" with any value
+STORE "r" with any value
+STORE "luas" without any value
+STORE "keliling" without any value
+
+SET "phi" with 3,14
+
+INPUT "r"
+
+CALCULATE "phi" * "r" * "r"
+SET "luas" value with calculation result
+DISPLAY "luas"
+
+CALCULATE 2 * "phi" * "r"
+SET "keliling" value with calculation result
+DISPLAY "keliling"
+
+
+
+

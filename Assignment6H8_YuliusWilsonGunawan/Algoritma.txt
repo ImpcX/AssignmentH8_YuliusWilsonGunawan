@@ -1,0 +1,21 @@
+Algoritma 
+
+Luas_Keliling_Lingkaran
+
+  Deklarasi
+- variabel phi, luas, dan keliling dalam bentuk float
+- r dalam bentuk int
+- Deskripsikan phi dengan nilai 3.14
+
+  Input
+- Masukkan nilai r
+
+  Proses
+- Hitung luas dengan phi * r * r
+- Hitung keliling dengan 2 * phi * r
+
+  Output
+- Tampil luas
+- Tampil keliling
+
+
