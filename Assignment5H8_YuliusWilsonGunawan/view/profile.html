@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <link rel="stylesheet" type="text/css" href="../css/profile.css">
+        <script src="../js/profile.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+
+    <body class="bode">
+        <div class="col-md-12 col-sm-12">
+            <nav class="navbar navbar-expand">
+                <div class="container-fluid justify-content-end">
+                    <a href="profile.html" class="navbar-brand">HOME</a>
+                    <a href="#" class="navbar-brand">PRODUCT</a>
+                    <a href="#" class="navbar-brand">GALLERY</a>
+                    <a href="blog.html" class="navbar-brand">BLOG</a>
+                    <a href="#" class="navbar-brand">INVENTORY</a>
+                </div>
+            </nav>
+        </div>
+
+        <br>
+
+        <div id="profile" class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <div class="uix">
+                        <div class="oleh">
+                            <img src="../assets/meh.jpg" style="width:200px;height:200px">
+                        </div>
+                        <div class="card-bodyy">
+                            <br>
+                            <h3 id="d_nama">Yulius Wilson Gunawan</h3>
+                            <br>
+                            <p id="d_jabatan">Front End Designer</p>
+                            <br><br>
+                            <button type="button" class="btn btn-primary" onclick="FungsiEdit()">Edit</button>
+                            <button type="button" class="btn btn-success">Resume</button>
+                        </div>
+                    </div> <!-- uix -->
+                </div> <!-- End Col-8 -->
+    
+                <div class="col-md-4">
+                    <div class="uix">
+                        <div class="card-body">
+                            <div class="row">
+                                <label class="col-md-6"><strong>Availability</strong></label>
+                                <p id="d_ava">Full Time</p>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <label class="col-md-6"><strong>Usia</strong></label>
+                                <p id="d_usia">21</p>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <label class="col-md-6"><strong>Lokasi</strong></label>
+                                <p id="d_lokasi">Yogyakarta</p>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <label class="col-md-6"><strong>Pengalaman</strong></label>
+                                <p id="d_peng">2</p>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <label class="col-md-6"><strong>Email</strong></label>
+                                <p id="d_email">yuliuswilsong@gmail.com</p>
+                            </div>
+                            <br>
+                        </div>
+                    </div> <!-- uix -->
+                </div> <!-- End Col-4 -->
+            </div> <!-- End Row -->
+        </div> <!-- End Container -->
+
+        <!-- Form Edit -->
+        <div class="form-edit" id="form-edit" style="visibility: hidden;">
+            <form>
+                <div class="edit-class">
+                    <label class="col-md-6"><strong>Nama</strong></label>
+                    <input class="col-md-6" type="text" name="nama" id="nama" value="Yulius Wilson Gunawan">
+                </div>
+                <div class="edit-class">
+                    <label class="col-md-6"><strong>Role</strong></label>
+                    <input class="col-md-6" type="text" name="jabatan" id="jabatan" value="Front End Designer">
+                </div>
+                <div class="edit-class">
+                    <label class="col-md-6"><strong>Availability</strong></label>
+                    <input class="col-md-6" type="text" name="ava" id="ava" value="Full Time">
+                </div>
+                <div class="edit-class">
+                    <label class="col-md-6"><strong>Usia</strong></label>
+                    <input class="col-md-6" type="number" name="usia" id="usia" value="21">
+                </div>
+                <div class="edit-class">
+                    <label class="col-md-6"><strong>Lokasi</strong></label>
+                    <input class="col-md-6" type="text" name="lokasi" id="lokasi" value="Yogyakarta">
+                </div>
+                <div class="edit-class">
+                    <label class="col-md-6"><strong>Years Experience</strong></label>
+                    <input class="col-md-6" type="text" name="peng" id="peng" value="2">
+                </div>
+                <div class="edit-class">
+                    <label class="col-md-6"><strong>Email</strong></label>
+                    <input class="col-md-6" type="email" name="email" id="email" value="yuliuswilsong@gmail.com">
+                </div>
+            </form>
+            <button type="submit" class="btn btn-success" onclick="FungsiSubmit()">Submit</button>
+        </div>
+    </body>
+</html>

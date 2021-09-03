@@ -1,0 +1,105 @@
+.bode {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    background-color: whitesmoke;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    text-align: right;
+    position: absolute;
+    padding-right: 5%;
+    word-spacing: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.box1 {
+    background-color: whitesmoke;
+    padding: 10px 10px;
+    float: left;
+}
+
+.box1 input {
+    background-color: whitesmoke;
+    border: whitesmoke;
+}
+
+.box2 {
+    background-color: whitesmoke;
+    padding: 10px 10px;
+    padding-right: 10%;
+    float: left;
+}
+
+.box2 input{
+    float: right;
+    background-color: whitesmoke;
+    border: whitesmoke;
+}
+
+.box2 a{
+    text-align: left;
+}
+
+.sec1 {
+    display: inline-block;
+    width: 60%;
+    background-color: whitesmoke;
+}
+
+.uix {
+    background-color: whitesmoke;
+}
+
+.oleh {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-body input {
+    border: whitesmoke;
+    background-color: whitesmoke;
+    width: auto;
+}
+
+.card-bodyy input {
+    padding-top: 10px;
+    border: whitesmoke;
+    background-color: whitesmoke;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.edit-class {
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.edit-class input {
+    width: 100%;
+}
+
+.form-edit button{
+    width: 100%;
+}
