@@ -1,0 +1,38 @@
+.bode {
+    background-color: lightgray;
+    text-decoration: none ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oleh {
+    font-size: 10px;
+    text-align-last: right;
+}
+
+.navbbar {
+    background-color: tomato;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.uix {
+    background-color: white;
+}
+
+.card-title-side {
+    font-weight: bold;
+    color: blue;
+}
+
+.link1 {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    padding-left: 5%;
+    padding-right: 5%;
+}
