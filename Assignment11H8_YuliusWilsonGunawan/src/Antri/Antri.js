@@ -4,7 +4,8 @@ import './Antri.css';
 function Fungsi()
 {
     const [nama, setNama] = useState([""]);
-    const arr = [""];
+    const arr = [];
+    const panah = "=>";
 
     const submit = e =>
     {
@@ -15,15 +16,22 @@ function Fungsi()
     {
         var output = document.getElementById("tampil");
         var c1 = document.getElementById("nama").value;
-        arr.push(c1);
+        arr.push(c1 + panah);
         output.innerHTML = arr;
     }
 
     const click2 = () =>
     {
         var output = document.getElementById("tampil");
-        arr.splice(-1);
-        output.innerHTML = arr;
+        arr.pop();
+        if(arr.length === 0)
+        {
+            output.innerHTML = "[ Antrian Kosong !]";
+        }else
+        {
+            output.innerHTML = arr;
+        }
+        
     }
 
     return(
@@ -41,11 +49,7 @@ function Fungsi()
                     <hr />
                 </form>
                 <br />
-                <label className="tampil" id="tampil">[ Antrian Kosong !]</label>
-
-                <br />
-                <br />
-                <label>Fungsi Hanya Bisa Tambah Antri dan Kurang Antrian</label>
+                <p className="tampil" id="tampil">[ Antrian Kosong !]</p>
             </center>
         </div>
     );
