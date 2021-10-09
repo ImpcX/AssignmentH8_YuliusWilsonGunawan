@@ -1,0 +1,78 @@
+.backlog .judul {
+    background-color: lightgrey;
+    margin-top: 10px;
+}
+
+#backlog {
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+#tampil-backlog {
+    border-style: solid;
+    border-color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.progres .judul {
+    background-color: lightyellow;
+    margin-top: 10px;
+}
+
+.progres {
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+#tampil-progress {
+    border-style: solid;
+    border-color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.evaluation .judul {
+    background-color: lightblue;
+    margin-top: 10px;
+}
+
+.evaluation {
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+#tampil-evaluation {
+    border-style: solid;
+    border-color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.done .judul {
+    background-color: lightgreen;
+    margin-top: 10px;
+}
+
+.done {
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+#tampil-done {
+    border-style: solid;
+    border-color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.main input {
+    justify-content: center;
+    width: 250px;
+}
+
+.main #button {
+    justify-content: center;
+    width: 250px;
+}
+
+.main h1 {
+    justify-content: center;
+}
+
